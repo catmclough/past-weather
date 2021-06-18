@@ -12,7 +12,7 @@ struct WeatherPointRow: View {
     var body: some View {
         HStack {
             Spacer()
-            Text("Wed")
+            Text("Tue")
             Spacer()
             point.current.weather[0].iconImage
                 .resizable()
@@ -30,3 +30,4 @@ struct WeatherPointRow_Previews: PreviewProvider {
             .previewLayout(.fixed(width: 300, height: 70))
     }
 }
+

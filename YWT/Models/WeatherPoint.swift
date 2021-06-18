@@ -10,9 +10,11 @@ import SwiftUI
 
 struct WeatherPoint: Hashable, Codable {
     var current: CurrentWeather
+    
     struct CurrentWeather: Hashable, Codable {
         var temp: Double
         var weather: [WeatherData]
+        var dt: Int
         
         struct WeatherData: Hashable, Codable {
             var icon: String
