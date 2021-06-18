@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43715432267BCBEC0004F742 /* WeatherPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43715431267BCBEC0004F742 /* WeatherPoint.swift */; };
+		438EB7A9267BD558003C8811 /* historicalWeather.json in Resources */ = {isa = PBXBuildFile; fileRef = 438EB7A8267BD558003C8811 /* historicalWeather.json */; };
+		438EB7B1267BD6B8003C8811 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438EB7B0267BD6B8003C8811 /* ModelData.swift */; };
+		438EB7BF267BF7DB003C8811 /* WeatherPointRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438EB7BE267BF7DB003C8811 /* WeatherPointRow.swift */; };
+		438EB7D2267C0BDC003C8811 /* WeatherPointList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438EB7D1267C0BDC003C8811 /* WeatherPointList.swift */; };
+		438EB7DA267C0F07003C8811 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438EB7D9267C0F07003C8811 /* CurrentWeather.swift */; };
+		438EB7E7267C1B15003C8811 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438EB7E6267C1B15003C8811 /* Greeting.swift */; };
+		43AE1DAE2673DD9300E2503C /* YWTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE1DAD2673DD9300E2503C /* YWTApp.swift */; };
+		43AE1DB02673DD9300E2503C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE1DAF2673DD9300E2503C /* ContentView.swift */; };
+		43AE1DB22673DD9500E2503C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AE1DB12673DD9500E2503C /* Assets.xcassets */; };
+		43AE1DB52673DD9500E2503C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AE1DB42673DD9500E2503C /* Preview Assets.xcassets */; };
+		43AE1DC02673DD9600E2503C /* YWTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE1DBF2673DD9600E2503C /* YWTTests.swift */; };
+		43AE1DCB2673DD9600E2503C /* YWTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE1DCA2673DD9600E2503C /* YWTUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43AE1DBC2673DD9600E2503C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43AE1DA22673DD9300E2503C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AE1DA92673DD9300E2503C;
+			remoteInfo = YWT;
+		};
+		43AE1DC72673DD9600E2503C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43AE1DA22673DD9300E2503C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AE1DA92673DD9300E2503C;
+			remoteInfo = YWT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43715431267BCBEC0004F742 /* WeatherPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPoint.swift; sourceTree = "<group>"; };
+		438EB7A8267BD558003C8811 /* historicalWeather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = historicalWeather.json; sourceTree = "<group>"; };
+		438EB7B0267BD6B8003C8811 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		438EB7BE267BF7DB003C8811 /* WeatherPointRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPointRow.swift; sourceTree = "<group>"; };
+		438EB7CA267BFAC8003C8811 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		438EB7D1267C0BDC003C8811 /* WeatherPointList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPointList.swift; sourceTree = "<group>"; };
+		438EB7D9267C0F07003C8811 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		438EB7E6267C1B15003C8811 /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
+		43AE1DAA2673DD9300E2503C /* YWT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AE1DAD2673DD9300E2503C /* YWTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWTApp.swift; sourceTree = "<group>"; };
+		43AE1DAF2673DD9300E2503C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43AE1DB12673DD9500E2503C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43AE1DB42673DD9500E2503C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43AE1DB62673DD9500E2503C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43AE1DBB2673DD9600E2503C /* YWTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AE1DBF2673DD9600E2503C /* YWTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWTTests.swift; sourceTree = "<group>"; };
+		43AE1DC12673DD9600E2503C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43AE1DC62673DD9600E2503C /* YWTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AE1DCA2673DD9600E2503C /* YWTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWTUITests.swift; sourceTree = "<group>"; };
+		43AE1DCC2673DD9600E2503C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43AE1DA72673DD9300E2503C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AE1DB82673DD9600E2503C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AE1DC32673DD9600E2503C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438EB7B5267BD9B1003C8811 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43AE1DAF2673DD9300E2503C /* ContentView.swift */,
+				438EB7BE267BF7DB003C8811 /* WeatherPointRow.swift */,
+				438EB7D1267C0BDC003C8811 /* WeatherPointList.swift */,
+				438EB7D9267C0F07003C8811 /* CurrentWeather.swift */,
+				438EB7E6267C1B15003C8811 /* Greeting.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		438EB7B6267BD9DD003C8811 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43715431267BCBEC0004F742 /* WeatherPoint.swift */,
+				438EB7B0267BD6B8003C8811 /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		438EB7B7267BD9EF003C8811 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				438EB7A8267BD558003C8811 /* historicalWeather.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		43AE1DA12673DD9300E2503C = {
+			isa = PBXGroup;
+			children = (
+				438EB7CA267BFAC8003C8811 /* README.md */,
+				43AE1DAC2673DD9300E2503C /* YWT */,
+				43AE1DBE2673DD9600E2503C /* YWTTests */,
+				43AE1DC92673DD9600E2503C /* YWTUITests */,
+				43AE1DAB2673DD9300E2503C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43AE1DAB2673DD9300E2503C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43AE1DAA2673DD9300E2503C /* YWT.app */,
+				43AE1DBB2673DD9600E2503C /* YWTTests.xctest */,
+				43AE1DC62673DD9600E2503C /* YWTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43AE1DAC2673DD9300E2503C /* YWT */ = {
+			isa = PBXGroup;
+			children = (
+				43AE1DAD2673DD9300E2503C /* YWTApp.swift */,
+				438EB7B7267BD9EF003C8811 /* Resources */,
+				438EB7B6267BD9DD003C8811 /* Models */,
+				438EB7B5267BD9B1003C8811 /* Views */,
+				43AE1DB12673DD9500E2503C /* Assets.xcassets */,
+				43AE1DB62673DD9500E2503C /* Info.plist */,
+				43AE1DB32673DD9500E2503C /* Preview Content */,
+			);
+			path = YWT;
+			sourceTree = "<group>";
+		};
+		43AE1DB32673DD9500E2503C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43AE1DB42673DD9500E2503C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43AE1DBE2673DD9600E2503C /* YWTTests */ = {
+			isa = PBXGroup;
+			children = (
+				43AE1DBF2673DD9600E2503C /* YWTTests.swift */,
+				43AE1DC12673DD9600E2503C /* Info.plist */,
+			);
+			path = YWTTests;
+			sourceTree = "<group>";
+		};
+		43AE1DC92673DD9600E2503C /* YWTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43AE1DCA2673DD9600E2503C /* YWTUITests.swift */,
+				43AE1DCC2673DD9600E2503C /* Info.plist */,
+			);
+			path = YWTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43AE1DA92673DD9300E2503C /* YWT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AE1DCF2673DD9600E2503C /* Build configuration list for PBXNativeTarget "YWT" */;
+			buildPhases = (
+				43AE1DA62673DD9300E2503C /* Sources */,
+				43AE1DA72673DD9300E2503C /* Frameworks */,
+				43AE1DA82673DD9300E2503C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWT;
+			productName = YWT;
+			productReference = 43AE1DAA2673DD9300E2503C /* YWT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43AE1DBA2673DD9600E2503C /* YWTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AE1DD22673DD9600E2503C /* Build configuration list for PBXNativeTarget "YWTTests" */;
+			buildPhases = (
+				43AE1DB72673DD9600E2503C /* Sources */,
+				43AE1DB82673DD9600E2503C /* Frameworks */,
+				43AE1DB92673DD9600E2503C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43AE1DBD2673DD9600E2503C /* PBXTargetDependency */,
+			);
+			name = YWTTests;
+			productName = YWTTests;
+			productReference = 43AE1DBB2673DD9600E2503C /* YWTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43AE1DC52673DD9600E2503C /* YWTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AE1DD52673DD9600E2503C /* Build configuration list for PBXNativeTarget "YWTUITests" */;
+			buildPhases = (
+				43AE1DC22673DD9600E2503C /* Sources */,
+				43AE1DC32673DD9600E2503C /* Frameworks */,
+				43AE1DC42673DD9600E2503C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43AE1DC82673DD9600E2503C /* PBXTargetDependency */,
+			);
+			name = YWTUITests;
+			productName = YWTUITests;
+			productReference = 43AE1DC62673DD9600E2503C /* YWTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43AE1DA22673DD9300E2503C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					43AE1DA92673DD9300E2503C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					43AE1DBA2673DD9600E2503C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 43AE1DA92673DD9300E2503C;
+					};
+					43AE1DC52673DD9600E2503C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 43AE1DA92673DD9300E2503C;
+					};
+				};
+			};
+			buildConfigurationList = 43AE1DA52673DD9300E2503C /* Build configuration list for PBXProject "YWT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43AE1DA12673DD9300E2503C;
+			productRefGroup = 43AE1DAB2673DD9300E2503C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43AE1DA92673DD9300E2503C /* YWT */,
+				43AE1DBA2673DD9600E2503C /* YWTTests */,
+				43AE1DC52673DD9600E2503C /* YWTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43AE1DA82673DD9300E2503C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438EB7A9267BD558003C8811 /* historicalWeather.json in Resources */,
+				43AE1DB52673DD9500E2503C /* Preview Assets.xcassets in Resources */,
+				43AE1DB22673DD9500E2503C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AE1DB92673DD9600E2503C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AE1DC42673DD9600E2503C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43AE1DA62673DD9300E2503C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AE1DB02673DD9300E2503C /* ContentView.swift in Sources */,
+				438EB7B1267BD6B8003C8811 /* ModelData.swift in Sources */,
+				43715432267BCBEC0004F742 /* WeatherPoint.swift in Sources */,
+				438EB7DA267C0F07003C8811 /* CurrentWeather.swift in Sources */,
+				43AE1DAE2673DD9300E2503C /* YWTApp.swift in Sources */,
+				438EB7D2267C0BDC003C8811 /* WeatherPointList.swift in Sources */,
+				438EB7E7267C1B15003C8811 /* Greeting.swift in Sources */,
+				438EB7BF267BF7DB003C8811 /* WeatherPointRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AE1DB72673DD9600E2503C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AE1DC02673DD9600E2503C /* YWTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AE1DC22673DD9600E2503C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AE1DCB2673DD9600E2503C /* YWTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43AE1DBD2673DD9600E2503C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43AE1DA92673DD9300E2503C /* YWT */;
+			targetProxy = 43AE1DBC2673DD9600E2503C /* PBXContainerItemProxy */;
+		};
+		43AE1DC82673DD9600E2503C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43AE1DA92673DD9300E2503C /* YWT */;
+			targetProxy = 43AE1DC72673DD9600E2503C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43AE1DCD2673DD9600E2503C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43AE1DCE2673DD9600E2503C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43AE1DD02673DD9600E2503C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YWT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = YWT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmcloughlin.YWT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43AE1DD12673DD9600E2503C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YWT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = YWT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmcloughlin.YWT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43AE1DD32673DD9600E2503C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YWTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmcloughlin.YWTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWT.app/YWT";
+			};
+			name = Debug;
+		};
+		43AE1DD42673DD9600E2503C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YWTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmcloughlin.YWTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWT.app/YWT";
+			};
+			name = Release;
+		};
+		43AE1DD62673DD9600E2503C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YWTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmcloughlin.YWTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YWT;
+			};
+			name = Debug;
+		};
+		43AE1DD72673DD9600E2503C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YWTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmcloughlin.YWTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YWT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43AE1DA52673DD9300E2503C /* Build configuration list for PBXProject "YWT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AE1DCD2673DD9600E2503C /* Debug */,
+				43AE1DCE2673DD9600E2503C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AE1DCF2673DD9600E2503C /* Build configuration list for PBXNativeTarget "YWT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AE1DD02673DD9600E2503C /* Debug */,
+				43AE1DD12673DD9600E2503C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AE1DD22673DD9600E2503C /* Build configuration list for PBXNativeTarget "YWTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AE1DD32673DD9600E2503C /* Debug */,
+				43AE1DD42673DD9600E2503C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AE1DD52673DD9600E2503C /* Build configuration list for PBXNativeTarget "YWTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AE1DD62673DD9600E2503C /* Debug */,
+				43AE1DD72673DD9600E2503C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43AE1DA22673DD9300E2503C /* Project object */;
+}
